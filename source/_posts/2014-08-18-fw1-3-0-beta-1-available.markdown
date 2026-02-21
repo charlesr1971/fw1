@@ -5,7 +5,7 @@ date: 2014-08-18 11:21:49 -0700
 comments: true
 categories: [releases, fw1, di1]
 ---
-Just over four weeks ago, I released [FW/1 3.0 Alpha 1](http://framework-one.github.io/blog/2014/07/20/fw1-3-0-alpha-1-available-for-testing/) and declared it _feature complete_. There were some big changes in that release and, in particular, some long-standing features were removed (after being deprecated in FW/1 2.5) and some recently-introduced features were also deprecated. Today I am releasing the first Beta version which includes bug fixes and usability enhancements, focusing primarily on DI/1 and AOP/1.<!-- more -->
+Just over four weeks ago, I released [FW/1 3.0 Alpha 1](http://charlesr1971.github.io/fw1/blog/2014/07/20/fw1-3-0-alpha-1-available-for-testing/) and declared it _feature complete_. There were some big changes in that release and, in particular, some long-standing features were removed (after being deprecated in FW/1 2.5) and some recently-introduced features were also deprecated. Today I am releasing the first Beta version which includes bug fixes and usability enhancements, focusing primarily on DI/1 and AOP/1.<!-- more -->
 
 You can [download FW/1 3.0 Beta 1 from Github](https://github.com/framework-one/fw1/releases/tag/v3.0-beta1) and that release page has a link to [the complete list of closed tickets in FW/1 3.0 Beta 1](https://github.com/framework-one/fw1/issues?milestone=13&page=1&state=closed) and [closed tickets in DI/1 that are for FW/1 3.0](https://github.com/framework-one/di1/issues?milestone=1&page=1&state=closed). Note that those issues are only fixed in the FW/1 repository, not the DI/1 repository, but they will be backported later on.
 

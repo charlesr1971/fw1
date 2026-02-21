@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Oss | FW/1 - The Invisible Framework]]></title>
-  <link href="http://framework-one.github.io/blog/categories/oss/atom.xml" rel="self"/>
-  <link href="http://framework-one.github.io/"/>
+  <link href="http://charlesr1971.github.io/fw1/blog/categories/oss/atom.xml" rel="self"/>
+  <link href="http://charlesr1971.github.io/fw1/"/>
   <updated>2015-07-07T16:43:21-07:00</updated>
-  <id>http://framework-one.github.io/</id>
+  <id>http://charlesr1971.github.io/fw1/</id>
   <author>
     <name><![CDATA[Sean Corfield]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Open Source: RTW or Collaboration?]]></title>
-    <link href="http://framework-one.github.io/blog/2010/08/28/open-source-rtw-or-collaboration/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2010/08/28/open-source-rtw-or-collaboration/"/>
     <updated>2010-08-28T13:21:49-07:00</updated>
-    <id>http://framework-one.github.io/blog/2010/08/28/open-source-rtw-or-collaboration</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2010/08/28/open-source-rtw-or-collaboration</id>
     <content type="html"><![CDATA[<p>RTW &ndash; Reinventing The Wheel &ndash; is normally a bad thing. I&rsquo;m said several times that the main reason we have no truly great open source software in ColdFusion is because when we see an open source project that doesn&rsquo;t do what we need, we go off and build our version, which we may or may not open source, instead of collaborating on the existing project to make it better.<!-- more --></p>
 
 <p><a href="http://twitter.com/henrylearn2rock">Henry Ho</a> asked on Twitter for recommendations about dependency injection frameworks and quoted a list of several candidates. I replied that DI/1 would soon be added to that list and that led <a href="http://twitter.com/maestrofjp">Peter J. Farrell</a> to ask &ldquo;Aren&rsquo;t u reinventing the wheel? We must stop propagating if you don&rsquo;t like something, just create ur own. Contribute instead.&rdquo;</p>

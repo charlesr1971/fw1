@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://framework-one.github.io/sitemap.xml 
+Sitemap: http://charlesr1971.github.io/fw1/sitemap.xml 

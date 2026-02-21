@@ -6,7 +6,7 @@ comments: false
 sharing: false
 footer: true
 ---
-**This document is left as a historical roadmap -- see the [FW/1 Roadmap blog post](http://framework-one.github.io/blog/2019/03/27/fw1-roadmap/) for the current state of things.**
+**This document is left as a historical roadmap -- see the [FW/1 Roadmap blog post](http://charlesr1971.github.io/fw1/blog/2019/03/27/fw1-roadmap/) for the current state of things.**
 
 Whilst you can read the [FW/1 issues list](https://github.com/framework-one/fw1/issues) to see what's on the cards for future releases, several people have asked that I document things at a higher level so they can get a better sense of what's coming.
 

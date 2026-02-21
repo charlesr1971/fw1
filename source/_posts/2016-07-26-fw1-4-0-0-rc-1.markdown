@@ -8,4 +8,4 @@ categories: [releases, fw1, di1, aop1, clojure]
 [FW/1 4.0.0 RC 1](https://github.com/framework-one/fw1/releases/tag/v4.0.0-rc1) is available.
 The only change from Beta 2 is a bug fix in the handling of load listeners for subsystem bean factories (the default load listener is no longer inherited).
 
-For full details, read the [Change Log for FW/1 4.0](http://framework-one.github.io/documentation/4.0/changes.html).
+For full details, read the [Change Log for FW/1 4.0](http://charlesr1971.github.io/fw1/documentation/4.0/changes.html).

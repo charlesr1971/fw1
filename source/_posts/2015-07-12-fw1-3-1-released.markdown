@@ -12,7 +12,7 @@ FW 3.1 is a maintenance release of the 3.x series, containing a number of bug fi
 AOP/1
 -----
 AOP/1 brings Aspect-Oriented Programming to FW/1 applications by extending the capabilities of DI/1 with "interceptors" that can be automatically woven into your beans to allow you to call additional methods before, after, or instead of ("around") the native methods on your beans.
-Please read [the all new AOP/1 documentation](http://framework-one.github.io/documentation/using-aop-one.html) provided by Daniel Budde for more details on how to use this powerful new feature.
+Please read [the all new AOP/1 documentation](http://charlesr1971.github.io/fw1/documentation/using-aop-one.html) provided by Daniel Budde for more details on how to use this powerful new feature.
 
 Enhancements
 -----

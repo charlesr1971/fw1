@@ -8,7 +8,7 @@ categories: [releases, fw1, di1, aop1, clojure]
 Happy New Year and Welcome to 2016!
 
 FW/1 3.5 has been out for a few months now and I want to talk about what's coming this year.<!-- more -->
-FW/1 4.0 is well under way and the themes are REST APIs and enhancements to DI/1. You can read [the FW/1 4.0 change log](http://framework-one.github.io/documentation/4.0/changes.html) here to see how much has been done so far. There are [only a few issues left for 4.0](https://github.com/framework-one/fw1/issues?q=is%3Aopen+is%3Aissue+milestone%3A4.0) so we're close to the first Alpha release at this point.
+FW/1 4.0 is well under way and the themes are REST APIs and enhancements to DI/1. You can read [the FW/1 4.0 change log](http://charlesr1971.github.io/fw1/documentation/4.0/changes.html) here to see how much has been done so far. There are [only a few issues left for 4.0](https://github.com/framework-one/fw1/issues?q=is%3Aopen+is%3Aissue+milestone%3A4.0) so we're close to the first Alpha release at this point.
 
 Why the 4.0 version? A major version number change indicates breaking changes. 4.0 drops support for Adobe ColdFusion 9.0.x because it relies on closures. Frankly, I'd like to drop support for Adobe ColdFusion 10 so I could rely on using member functions, but I feel it's important to support two major versions. Just bear in mind that Raijin -- ColdFusion 2016 -- is coming and when that's released, I will drop support for ACF10!
 

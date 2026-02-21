@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[FW/1 - The Invisible Framework]]></title>
-  <link href="http://framework-one.github.io/atom.xml" rel="self"/>
-  <link href="http://framework-one.github.io/"/>
+  <link href="http://charlesr1971.github.io/fw1/atom.xml" rel="self"/>
+  <link href="http://charlesr1971.github.io/fw1/"/>
   <updated>2015-07-07T16:43:21-07:00</updated>
-  <id>http://framework-one.github.io/</id>
+  <id>http://charlesr1971.github.io/fw1/</id>
   <author>
     <name><![CDATA[Sean Corfield]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[FW/1 3.1 Release Candidate 2 Available!]]></title>
-    <link href="http://framework-one.github.io/blog/2015/07/07/fw1-3-1-rc-2/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/07/07/fw1-3-1-rc-2/"/>
     <updated>2015-07-07T16:40:00-07:00</updated>
-    <id>http://framework-one.github.io/blog/2015/07/07/fw1-3-1-rc-2</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/07/07/fw1-3-1-rc-2</id>
     <content type="html"><![CDATA[<p>The second Release Candidate of FW/1 3.1 is now available for testing. You <a href="https://github.com/framework-one/fw1/releases/tag/v3.1-rc2">download FW/1 3.1 RC 2 from GitHub</a>.</p>
 
 <p>These are the changes since RC 1:</p>
@@ -45,9 +45,9 @@ automatic support for Clojure code in the Model and Controllers, as well as firs
   
   <entry>
     <title type="html"><![CDATA[FW/1 3.1 Release Candidate 1 Available!]]></title>
-    <link href="http://framework-one.github.io/blog/2015/06/28/fw1-3-1-rc-1/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/06/28/fw1-3-1-rc-1/"/>
     <updated>2015-06-28T17:00:00-07:00</updated>
-    <id>http://framework-one.github.io/blog/2015/06/28/fw1-3-1-rc-1</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/06/28/fw1-3-1-rc-1</id>
     <content type="html"><![CDATA[<p>The first Release Candidate of FW/1 3.1 is now available for testing. You <a href="https://github.com/framework-one/fw1/releases/tag/v3.1-rc1">download FW/1 3.1 RC 1 from GitHub</a>.</p>
 
 <p>These are the changes since Beta 2:</p>
@@ -75,27 +75,27 @@ automatic support for Clojure code in the Model and Controllers, as well as firs
   
   <entry>
     <title type="html"><![CDATA[FW/1 3.1 Beta 2 Available!]]></title>
-    <link href="http://framework-one.github.io/blog/2015/06/20/fw1-3-1-beta-2/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/06/20/fw1-3-1-beta-2/"/>
     <updated>2015-06-20T00:59:49-07:00</updated>
-    <id>http://framework-one.github.io/blog/2015/06/20/fw1-3-1-beta-2</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/06/20/fw1-3-1-beta-2</id>
     <content type="html"><![CDATA[<p>The second beta version of FW/1 3.1 is available for testing. Whilst this is a minor bug fix and enhancement release, it now includes the first major rewrite of AOP/1. Documentation will follow shortly. Massive thanks to Daniel Budde for the rewrite! You can <a href="https://github.com/framework-one/fw1/releases/tag/v3.1-beta2">download FW/1 3.1 Beta 2</a> from GitHub, as well as read the full release notes there.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[FW/1 3.1 Beta 1 Available!]]></title>
-    <link href="http://framework-one.github.io/blog/2015/05/14/fw1-3-1-beta-1/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/05/14/fw1-3-1-beta-1/"/>
     <updated>2015-05-14T22:40:49-07:00</updated>
-    <id>http://framework-one.github.io/blog/2015/05/14/fw1-3-1-beta-1</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/05/14/fw1-3-1-beta-1</id>
     <content type="html"><![CDATA[<p>The first beta version of FW/1 3.1 is available for testing. This is a minor bug fix and enhancement release. You can <a href="https://github.com/framework-one/fw1/releases/tag/v3.1-beta1">download FW/1 3.1 Beta 1</a> from GitHub, as well as read the full release notes there.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[FW/1 2.5.2 & 2.2.3 - Important Updates!]]></title>
-    <link href="http://framework-one.github.io/blog/2015/05/09/fw1-2-5-1-2-2-2-important/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/05/09/fw1-2-5-1-2-2-2-important/"/>
     <updated>2015-05-09T22:20:49-07:00</updated>
-    <id>http://framework-one.github.io/blog/2015/05/09/fw1-2-5-1-2-2-2-important</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/05/09/fw1-2-5-1-2-2-2-important</id>
     <content type="html"><![CDATA[<p>The thread safety issue affecting SES URLs and routes in FW/1 3.0 has been backported to the 2.2.x and 2.5.x releases so if you believe you are seeing incorrectly routed requests on either of those releases, you can update to the appropriate patch release:</p>
 
 <ul>
@@ -114,9 +114,9 @@ automatic support for Clojure code in the Model and Controllers, as well as firs
   
   <entry>
     <title type="html"><![CDATA[FW/1 3.0.2 - Important Update!]]></title>
-    <link href="http://framework-one.github.io/blog/2015/05/09/fw1-3-0-1-important/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/05/09/fw1-3-0-1-important/"/>
     <updated>2015-05-09T22:00:49-07:00</updated>
-    <id>http://framework-one.github.io/blog/2015/05/09/fw1-3-0-1-important</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/05/09/fw1-3-0-1-important</id>
     <content type="html"><![CDATA[<p>If you are using SES URLs or routes with FW/1 3.0 you should <a href="https://github.com/framework-one/fw1/releases/tag/v3.0.2">download FW/1 3.0.2</a> and update your applications as soon as possible, to address a thread safety issue in the way that <code>CGI.PATH_INFO</code> was handled in FW/1 3.0. This is an update to 3.0.1 and includes a context root fix.</p>
 
 <p>The symptoms you might see include incorrectly routed requests under load.</p>
@@ -127,25 +127,25 @@ automatic support for Clojure code in the Model and Controllers, as well as firs
   
   <entry>
     <title type="html"><![CDATA[FW/1 3.1 Begins...]]></title>
-    <link href="http://framework-one.github.io/blog/2015/03/21/fw1-3-1-begins/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/03/21/fw1-3-1-begins/"/>
     <updated>2015-03-21T14:30:49-07:00</updated>
-    <id>http://framework-one.github.io/blog/2015/03/21/fw1-3-1-begins</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/03/21/fw1-3-1-begins</id>
     <content type="html"><![CDATA[<p>I released FW/1 3.0 about a month ago and now it&rsquo;s time to get started on the 3.1 release.<!-- more --></p>
 
 <p>FW/1 3.1 will be primarily a maintenance release. You can read the <a href="https://github.com/framework-one/fw1/milestones/3.1">current list of changes slated for FW/1 3.1</a> on the GitHub issues page. Depending on how long it takes to get 3.1 done, additional issues may be added. And, of course, some of these issues may be slipped to 3.5 (currently represented by the <a href="https://github.com/framework-one/fw1/tree/clojure">Clojure branch of FW/1</a> in the GitHub repo and the <a href="https://github.com/framework-one/fw1/milestones/3.5">short list of FW/1 3.5 issues</a>).</p>
 
-<p>Starting with release 3.0, the <a href="http://framework-one.github.io/documentation/">FW/1 documentation</a> will be versioned and the top-level page will always represent the latest version in development. You can read the <a href="http://framework-one.github.io/documentation/3.0/">FW/1 3.0 documentation</a> separately already. The sidebar will always show two releases (develop and master) fully linked &ndash; older versions will be listed in future, with just a link to the index page.</p>
+<p>Starting with release 3.0, the <a href="http://charlesr1971.github.io/fw1/documentation/">FW/1 documentation</a> will be versioned and the top-level page will always represent the latest version in development. You can read the <a href="http://charlesr1971.github.io/fw1/documentation/3.0/">FW/1 3.0 documentation</a> separately already. The sidebar will always show two releases (develop and master) fully linked &ndash; older versions will be listed in future, with just a link to the index page.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[FW/1 3.0 Released!]]></title>
-    <link href="http://framework-one.github.io/blog/2015/02/24/fw1-3-0-released/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/02/24/fw1-3-0-released/"/>
     <updated>2015-02-24T09:30:49-08:00</updated>
-    <id>http://framework-one.github.io/blog/2015/02/24/fw1-3-0-released</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/02/24/fw1-3-0-released</id>
     <content type="html"><![CDATA[<p>I&rsquo;m pleased to announce that after lots of user testing and almost no issues found, the Gold Release of <a href="https://github.com/framework-one/fw1/releases/tag/v3.0">FW/1 3.0</a> is now available!<!-- more --></p>
 
-<p>About two and a half weeks ago I released <a href="http://framework-one.github.io/blog/2015/02/06/fw1-3-0-rc-2-available/">FW/1 3.0 RC 2</a> and only one minor issue was reported (an inconsistency between <code>buildURL()</code> and <code>buildCustomURL()</code> regarding how <code>baseURL</code> was handled). That has been fixed, along with the addition of a new extension point for DI/1 (<code>metadata()</code>).</p>
+<p>About two and a half weeks ago I released <a href="http://charlesr1971.github.io/fw1/blog/2015/02/06/fw1-3-0-rc-2-available/">FW/1 3.0 RC 2</a> and only one minor issue was reported (an inconsistency between <code>buildURL()</code> and <code>buildCustomURL()</code> regarding how <code>baseURL</code> was handled). That has been fixed, along with the addition of a new extension point for DI/1 (<code>metadata()</code>).</p>
 
 <p>You can see a <a href="https://github.com/framework-one/fw1/issues?milestone=13&amp;q=is%3Aclosed">full list of issues fixed in FW/1 for 3.0</a> and a <a href="https://github.com/framework-one/di1/issues?milestone=1&amp;q=is%3Aclosed">full list of issues fixed in DI/1 1.0</a> on GitHub. This represents the official release of DI/1 1.0 as well.</p>
 
@@ -155,10 +155,10 @@ automatic support for Clojure code in the Model and Controllers, as well as firs
   
   <entry>
     <title type="html"><![CDATA[FW/1 3.0 RC 2 Available]]></title>
-    <link href="http://framework-one.github.io/blog/2015/02/06/fw1-3-0-rc-2-available/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/02/06/fw1-3-0-rc-2-available/"/>
     <updated>2015-02-06T20:21:49-08:00</updated>
-    <id>http://framework-one.github.io/blog/2015/02/06/fw1-3-0-rc-2-available</id>
-    <content type="html"><![CDATA[<p>About two weeks ago I released <a href="http://framework-one.github.io/blog/2015/01/24/fw1-3-0-rc-1-available/">FW/1 3.0 RC 1</a> and the only real bug persisting at that point was related to <a href="https://github.com/framework-one/fw1/issues/283">DI/1 dotted path deduction</a>.</p>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/02/06/fw1-3-0-rc-2-available</id>
+    <content type="html"><![CDATA[<p>About two weeks ago I released <a href="http://charlesr1971.github.io/fw1/blog/2015/01/24/fw1-3-0-rc-1-available/">FW/1 3.0 RC 1</a> and the only real bug persisting at that point was related to <a href="https://github.com/framework-one/fw1/issues/283">DI/1 dotted path deduction</a>.</p>
 
 <p>I think that bug is finally squashed, based on early testing by some users that had encountered the bug, so the second <a href="https://github.com/framework-one/fw1/releases/tag/v3.0-rc2">Release Candidate build</a> of FW/1 3.0 is now available!<!-- more --></p>
 
@@ -170,9 +170,9 @@ automatic support for Clojure code in the Model and Controllers, as well as firs
   
   <entry>
     <title type="html"><![CDATA[Lucee and FW/1]]></title>
-    <link href="http://framework-one.github.io/blog/2015/01/29/lucee-fw1/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/01/29/lucee-fw1/"/>
     <updated>2015-01-29T13:30:49-08:00</updated>
-    <id>http://framework-one.github.io/blog/2015/01/29/lucee-fw1</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/01/29/lucee-fw1</id>
     <content type="html"><![CDATA[<p>Today saw the announcement of the <a href="http://lucee.org">Lucee Association Switzerland</a> and the release of a new open source CFML engine: <a href="http://lucee.org/downloads.html">Lucee 4.5.0</a>.</p>
 
 <p>For background on the new engine and the association behind it, read <a href="http://blog.adamcameron.me/2015/01/lucee.html">Adam Cameron&rsquo;s blog post with Q&amp;A</a> about the launch.</p>
@@ -189,9 +189,9 @@ automatic support for Clojure code in the Model and Controllers, as well as firs
   
   <entry>
     <title type="html"><![CDATA[FW/1 & Clojure Sitting in Tree]]></title>
-    <link href="http://framework-one.github.io/blog/2015/01/25/fw1-clojure-sitting-in-a-tree/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/01/25/fw1-clojure-sitting-in-a-tree/"/>
     <updated>2015-01-25T13:30:49-08:00</updated>
-    <id>http://framework-one.github.io/blog/2015/01/25/fw1-clojure-sitting-in-a-tree</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/01/25/fw1-clojure-sitting-in-a-tree</id>
     <content type="html"><![CDATA[<p>Anyone following my tech trajectory will know that, after starting to learn Clojure in 2010, I&rsquo;ve moved increasingly away from CFML and toward Clojure. In 2014, my team decided that Clojure would be our official primary language and all new development would happen there instead of in CFML. We still have a lot of CFML code in production &ndash; about 90kloc &ndash; but we consider it &ldquo;legacy code&rdquo; at this point. Most of that CFML code is a large ColdBox app that we built about five years ago (technically it&rsquo;s three ColdBox apps but they share a lot of code). Our application Model has been slowly moving to Clojure so that we can reuse that code in new applications we&rsquo;re building in Clojure. We&rsquo;ve also been building new apps with FW/1 (and reusing both our CFML code and our Clojure code). We still like CFML as a templating language for views and our controllers &ndash; in our FW/1 apps at least &ndash; are often mostly just &ldquo;glue&rdquo; code that lets us call into our Clojure model code.<!-- more --></p>
 
 <p>I&rsquo;ve talked in passing on the FW/1 mailing list about the possibility of deeper integration with Clojure and I recently published <a href="https://github.com/framework-one/cfmljure/releases/tag/v0.1.0">cfmljure 0.1.0</a> &ndash; which I&rsquo;ll be blogging about shortly &ndash; and so the topic came up again on the mailing list about this integration. I&rsquo;d been thinking about how to write controllers in Clojure so that you could have a FW/1 app that used CFML for the views &ndash; where it excels as a templating language &ndash; and Clojure for the controllers and the model, leveraging the expressive power and immutable safety for all your business logic.</p>
@@ -210,9 +210,9 @@ automatic support for Clojure code in the Model and Controllers, as well as firs
   
   <entry>
     <title type="html"><![CDATA[FW/1 3.0 RC 1 Available]]></title>
-    <link href="http://framework-one.github.io/blog/2015/01/24/fw1-3-0-rc-1-available/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/01/24/fw1-3-0-rc-1-available/"/>
     <updated>2015-01-24T22:21:49-08:00</updated>
-    <id>http://framework-one.github.io/blog/2015/01/24/fw1-3-0-rc-1-available</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/01/24/fw1-3-0-rc-1-available</id>
     <content type="html"><![CDATA[<p>FW/1 3.0 has been in beta testing since August 2014 and lots of people are already running in production so I figured it was time to push out the first <a href="https://github.com/framework-one/fw1/releases/tag/v3.0-rc1">Release Candidate build</a>.</p>
 
 <p>The main focus of RC 1 has been bug fixes. Only a small number of functional enhancements have been added (notably <code>getEnvVar()</code> to retrieve the value of a system environment variable which can be useful during environment control processing).<!-- more --> Some deprecated features have been removed:</p>
@@ -225,7 +225,7 @@ automatic support for Clojure code in the Model and Controllers, as well as firs
 
 <p>In addition, AOP/1 is no longer bundled with FW/1. It&rsquo;s not ready for primetime yet so I didn&rsquo;t want to include it in the 3.0 release. It got a lot of work between Alpha 1 and Beta 1 but additional bugs and some hard problems came up in testing. It&rsquo;s still available on the <code>aop1</code> branch if you want to experiment with it (and help find and fix more bugs in it!).</p>
 
-<p>As part of the preparation for RC 1, all of the documentation has been reviewed and updated and DI/1&rsquo;s documentation is now <a href="http://framework-one.github.io/documentation/using-di-one.html">part of the main documentation site</a>. Big thanks go to Nando Breiter for bringing that across from the old wiki in the standalone DI/1 repo. Code contributors to RC 1 include: John Berquist, Ryan Guill, Cameron Childress. Thank you!</p>
+<p>As part of the preparation for RC 1, all of the documentation has been reviewed and updated and DI/1&rsquo;s documentation is now <a href="http://charlesr1971.github.io/fw1/documentation/using-di-one.html">part of the main documentation site</a>. Big thanks go to Nando Breiter for bringing that across from the old wiki in the standalone DI/1 repo. Code contributors to RC 1 include: John Berquist, Ryan Guill, Cameron Childress. Thank you!</p>
 
 <p>At this point, only bug fixes will be considered before FW/1 3.0 goes &ldquo;gold&rdquo; and given the long period of testing so far on Beta 1, that final release shouldn&rsquo;t be too far away.</p>
 
@@ -235,9 +235,9 @@ automatic support for Clojure code in the Model and Controllers, as well as firs
   
   <entry>
     <title type="html"><![CDATA[Cfmljure Release 0.1.0]]></title>
-    <link href="http://framework-one.github.io/blog/2015/01/23/cfmljure-0-1-0/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/01/23/cfmljure-0-1-0/"/>
     <updated>2015-01-23T13:30:49-08:00</updated>
-    <id>http://framework-one.github.io/blog/2015/01/23/cfmljure-0-1-0</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/01/23/cfmljure-0-1-0</id>
     <content type="html"><![CDATA[<p>I started cfmljure back in 2010, a few months after I started to learn Clojure, as a way to run Clojure code inside a CFML application. That early version worked &ndash; we&rsquo;ve been using it in at World Singles since mid-2011 to integrate Clojure into our large ColdBox application, and updated versions of cfmljure have been in very heavy production usage since May 2012.<!-- more --> Those early versions were pretty clunky to setup though, since you needed to mess with the classpath of your CFML engine (or at least the container on which you ran it &ndash; Tomcat, in our case) and you needed to copy all your third-party library dependencies into the <code>WEB-INF/lib</code> folder (and restart your container if you changed your dependencies).</p>
 
 <p>When Clojure 1.6 came out (March 2014), it introduced a new API for embedding Clojure inside other JVM applications. I&rsquo;d been relying on an unsupported API so I wanted to move to the new API as soon as possible. I ran into problems with classpath handling so I put it on the back burner for a while. One of the things that bothered me about the earlier cfmljure was that you had to do so much configuration and manual copying of libraries. Leiningen handles all this for you in Clojure and I wanted things to be that slick for cfmljure. I experimented with some CFML code that executed Leiningen to retrieve the classpath and I had some success, but not enough to create a reliable version that could be used in our app at work.</p>
@@ -275,10 +275,10 @@ for ( var newURL in urls.toArray() ) {
   
   <entry>
     <title type="html"><![CDATA[FW/1 3.0 Beta 1 Available]]></title>
-    <link href="http://framework-one.github.io/blog/2014/08/18/fw1-3-0-beta-1-available/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2014/08/18/fw1-3-0-beta-1-available/"/>
     <updated>2014-08-18T11:21:49-07:00</updated>
-    <id>http://framework-one.github.io/blog/2014/08/18/fw1-3-0-beta-1-available</id>
-    <content type="html"><![CDATA[<p>Just over four weeks ago, I released <a href="http://framework-one.github.io/blog/2014/07/20/fw1-3-0-alpha-1-available-for-testing/">FW/1 3.0 Alpha 1</a> and declared it <em>feature complete</em>. There were some big changes in that release and, in particular, some long-standing features were removed (after being deprecated in FW/1 2.5) and some recently-introduced features were also deprecated. Today I am releasing the first Beta version which includes bug fixes and usability enhancements, focusing primarily on DI/1 and AOP/1.<!-- more --></p>
+    <id>http://charlesr1971.github.io/fw1/blog/2014/08/18/fw1-3-0-beta-1-available</id>
+    <content type="html"><![CDATA[<p>Just over four weeks ago, I released <a href="http://charlesr1971.github.io/fw1/blog/2014/07/20/fw1-3-0-alpha-1-available-for-testing/">FW/1 3.0 Alpha 1</a> and declared it <em>feature complete</em>. There were some big changes in that release and, in particular, some long-standing features were removed (after being deprecated in FW/1 2.5) and some recently-introduced features were also deprecated. Today I am releasing the first Beta version which includes bug fixes and usability enhancements, focusing primarily on DI/1 and AOP/1.<!-- more --></p>
 
 <p>You can <a href="https://github.com/framework-one/fw1/releases/tag/v3.0-beta1">download FW/1 3.0 Beta 1 from Github</a> and that release page has a link to <a href="https://github.com/framework-one/fw1/issues?milestone=13&amp;page=1&amp;state=closed">the complete list of closed tickets in FW/1 3.0 Beta 1</a> and <a href="https://github.com/framework-one/di1/issues?milestone=1&amp;page=1&amp;state=closed">closed tickets in DI/1 that are for FW/1 3.0</a>. Note that those issues are only fixed in the FW/1 repository, not the DI/1 repository, but they will be backported later on.</p>
 
@@ -351,9 +351,9 @@ bf.factoryBean( "a3Bean", "warehouse", "builder", [ "dsn", "config" ],
   
   <entry>
     <title type="html"><![CDATA[FW/1 3.0 Alpha 1 Available for Testing!]]></title>
-    <link href="http://framework-one.github.io/blog/2014/07/20/fw1-3-0-alpha-1-available-for-testing/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2014/07/20/fw1-3-0-alpha-1-available-for-testing/"/>
     <updated>2014-07-20T18:14:24-07:00</updated>
-    <id>http://framework-one.github.io/blog/2014/07/20/fw1-3-0-alpha-1-available-for-testing</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2014/07/20/fw1-3-0-alpha-1-available-for-testing</id>
     <content type="html"><![CDATA[<p>I consider FW/1 3.0 to be <em>feature complete</em> at this point so I am releasing Alpha 1 for testing. I expect people to run into a few bugs &ndash; this release has some big changes in it, compared to the 2.x release stream &ndash; and it&rsquo;s possible that new feature requests will crop up during alpha testing, but everything I wanted to change is in place.<!-- more --></p>
 
 <p>You can <a href="https://github.com/framework-one/fw1/releases/tag/v3.0-alpha1">download FW/1 3.0 Alpha 1 from Github</a> and that release page has a link to <a href="https://github.com/framework-one/fw1/issues?milestone=13&amp;page=1&amp;state=closed">the complete list of closed tickets in FW/1 3.0 Alpha 1</a> although I&rsquo;m going to summarize the most important ones in this blog post.</p>
@@ -362,7 +362,7 @@ bf.factoryBean( "a3Bean", "warehouse", "builder", [ "dsn", "config" ],
 
 <p>First and foremost, some features that have been part of FW/1 from the early days have been removed. These features were deprecated in FW/1 2.5 as a migration path so I would strongly advise anyone still on FW/1 2.2.1 (or earlier) to upgrade to 2.5 in preparation for the (breaking) changes in 3.0!</p>
 
-<p>These features include the <code>service()</code> API call and the <code>start*()</code> and <code>end*()</code> item handlers within controllers, as well as global references to <code>rc</code> (where it was not passed as an argument or made available in a view automatically). You can read more about the deprecation (and now removal) of these features in <a href="http://framework-one.github.io/blog/2014/05/25/fw1-2-5-is-released/">the release announcement for FW/1 2.5</a> on this blog. Management of services via a bean factory, with property-based injection, and direct invocation has long been considered a much better way to interact with services than using the &ldquo;service queue&rdquo; that FW/1 originally provided.</p>
+<p>These features include the <code>service()</code> API call and the <code>start*()</code> and <code>end*()</code> item handlers within controllers, as well as global references to <code>rc</code> (where it was not passed as an argument or made available in a view automatically). You can read more about the deprecation (and now removal) of these features in <a href="http://charlesr1971.github.io/fw1/blog/2014/05/25/fw1-2-5-is-released/">the release announcement for FW/1 2.5</a> on this blog. Management of services via a bean factory, with property-based injection, and direct invocation has long been considered a much better way to interact with services than using the &ldquo;service queue&rdquo; that FW/1 originally provided.</p>
 
 <p>In addition, the recently added <code>getRC()</code> and <code>getRCValue()</code> API calls &ndash; added in FW/1 2.5 during the deprecation of global references to <code>rc</code> &ndash; have been deprecated <em>and will be removed in the final FW/1 3.0 release</em>. They were hastily added and they were unnecessary. In this alpha release, their use will trigger an exception explaining what to use instead. You can add:</p>
 
@@ -421,9 +421,9 @@ setBeanFactory( bf );
   
   <entry>
     <title type="html"><![CDATA[FW/1 2.5 Is Released!]]></title>
-    <link href="http://framework-one.github.io/blog/2014/05/25/fw1-2-5-is-released/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2014/05/25/fw1-2-5-is-released/"/>
     <updated>2014-05-25T23:13:39-07:00</updated>
-    <id>http://framework-one.github.io/blog/2014/05/25/fw1-2-5-is-released</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2014/05/25/fw1-2-5-is-released</id>
     <content type="html"><![CDATA[<p>This is a migration release to pave the way for breaking changes in Release 3.0. All examples have been updated to latest best practices and now use cfcscript exclusively. Examples use DI/1 0.5.0 to manage all beans and services (as <code>framework.ioc</code>), and no longer rely on start/end actions or the <code>service()</code> method.<!-- more --></p>
 
 <p>As always, FW/1 can be downloaded from the <a href="http://fw1.riaforge.org">FW/1 page on RIAForge</a>. Release 2.5 is now the latest stable release of this framework, as it approaches its fifth birthday!</p>
@@ -453,22 +453,22 @@ suppressServiceQueue = false
   
   <entry>
     <title type="html"><![CDATA[FW/1 2.2 Released!]]></title>
-    <link href="http://framework-one.github.io/blog/2013/12/18/fw1-2-2-released/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2013/12/18/fw1-2-2-released/"/>
     <updated>2013-12-18T22:34:03-08:00</updated>
-    <id>http://framework-one.github.io/blog/2013/12/18/fw1-2-2-released</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2013/12/18/fw1-2-2-released</id>
     <content type="html"><![CDATA[<p>Framework One version 2.2 is now available for production use! You can download it from the <a href="http://fw1.riaforge.org/">Framework One page on RIAForge</a>. This includes one bug fix over RC2 (interaction between <code>renderData()</code> and trace output).<!-- more --></p>
 
-<p>The main focus of the 2.2 release is improved support for REST APIs, through the addition of <code>renderData()</code> to simplify returning JSON, XML and plain text results to the caller, as well as more sophisticated route handling via &ldquo;resource packs&rdquo; which let you define a family of related routes for a given resource type, using a shorthand notation. For more information, see this <a href="http://framework-one.github.io/blog/2013/11/03/fw1-releases-and-roadmap/">blog post about the latest FW/1 release and the roadmap</a>.</p>
+<p>The main focus of the 2.2 release is improved support for REST APIs, through the addition of <code>renderData()</code> to simplify returning JSON, XML and plain text results to the caller, as well as more sophisticated route handling via &ldquo;resource packs&rdquo; which let you define a family of related routes for a given resource type, using a shorthand notation. For more information, see this <a href="http://charlesr1971.github.io/fw1/blog/2013/11/03/fw1-releases-and-roadmap/">blog post about the latest FW/1 release and the roadmap</a>.</p>
 
-<p>As noted previously, the master branch is the current stable release (2.2), and the develop branch has become the next release (2.5). 2.5 will be released next month and will be a stepping stone toward some substantial changes coming in 3.0. For more detail, read this <a href="http://framework-one.github.io/blog/2013/11/02/fw1-the-year-ahead">blog post explaining the changes coming in 2.5 and 3.0</a>.</p>
+<p>As noted previously, the master branch is the current stable release (2.2), and the develop branch has become the next release (2.5). 2.5 will be released next month and will be a stepping stone toward some substantial changes coming in 3.0. For more detail, read this <a href="http://charlesr1971.github.io/fw1/blog/2013/11/02/fw1-the-year-ahead">blog post explaining the changes coming in 2.5 and 3.0</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[FW/1 Releases and Roadmap]]></title>
-    <link href="http://framework-one.github.io/blog/2013/11/03/fw1-releases-and-roadmap/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2013/11/03/fw1-releases-and-roadmap/"/>
     <updated>2013-11-03T11:38:30-08:00</updated>
-    <id>http://framework-one.github.io/blog/2013/11/03/fw1-releases-and-roadmap</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2013/11/03/fw1-releases-and-roadmap</id>
     <content type="html"><![CDATA[<p>Today I released the first <a href="https://github.com/framework-one/fw1/releases/tag/v2.2-rc1">FW/1 Version 2.2 Release Candidate</a> for testing. See below for the list of changes in this release, compared to Version 2.1. I also released a maintenance update for the old compatibility branch: <a href="https://github.com/framework-one/fw1/releases/tag/v1.3">FW/1 Version 1.3</a> (the &ldquo;Latest Release&rdquo; label is due to Github&rsquo;s view of the world, but it is the latest 1.x release). This is the version to use if you&rsquo;re on CFMX 7, CF 8, CF 9.0.0, Railo versions prior to 3.2, or OpenBD.<!-- more --></p>
 
 <p>In addition to these two releases, I also added milestones (and dates!) for the next two FW/1 releases: 2.5 and 3.0. There are some fairly big changes coming, including some important breaking changes. I&rsquo;ll post a follow-up with more details on <strong>why</strong> these changes are coming, but you should read the <a href="https://github.com/framework-one/fw1/issues/milestones">FW/1 Roadmap</a> and start thinking about how these changes will affect you (as well as reading the next blog post, of course!).</p>
@@ -510,9 +510,9 @@ suppressServiceQueue = false
   
   <entry>
     <title type="html"><![CDATA[FW/1 the Year Ahead]]></title>
-    <link href="http://framework-one.github.io/blog/2013/11/02/fw1-the-year-ahead/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2013/11/02/fw1-the-year-ahead/"/>
     <updated>2013-11-02T23:42:41-07:00</updated>
-    <id>http://framework-one.github.io/blog/2013/11/02/fw1-the-year-ahead</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2013/11/02/fw1-the-year-ahead</id>
     <content type="html"><![CDATA[<p>With FW/1 Version 2.2 just around the corner &ndash; after a long time in incubation &ndash; and FW/1 itself being almost four and a half years old, it&rsquo;s a good time to look ahead at what&rsquo;s in store.<!-- more --></p>
 
 <p>When FW/1 was first conceived, it was intended to be drop-dead simple and help on-board developers who were new to MVC and new to frameworks and also new to OOP. It leveraged conventions very heavily to encourage simple controller logic and delegation to a service layer for heavy lifting. That was the conceptual justification for the implicit service calls in the 1.x version and the ability to split controller methods in two &ndash; start/end-item &ndash; to wrap the automatic call to the service layer.</p>
@@ -533,9 +533,9 @@ suppressServiceQueue = false
   
   <entry>
     <title type="html"><![CDATA[Where Can I Download Old Versions of FW/1?]]></title>
-    <link href="http://framework-one.github.io/blog/2013/05/07/where-can-i-download-old-versions-of-fw1/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2013/05/07/where-can-i-download-old-versions-of-fw1/"/>
     <updated>2013-05-07T14:18:12-07:00</updated>
-    <id>http://framework-one.github.io/blog/2013/05/07/where-can-i-download-old-versions-of-fw1</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2013/05/07/where-can-i-download-old-versions-of-fw1</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been asked this several times recently so I figured it was worth a blog post. First of, why would anyone want older versions of the framework? Well, if they&rsquo;re running on Adobe ColdFusion 9.0.0 or earlier, they can&rsquo;t use the 2.x release stream: they&rsquo;re stuck on 1.x. Also, if they&rsquo;re currently using an old version and don&rsquo;t want a major upgrade, they might want a minor upgrade for a bug fix.<!-- more --></p>
 
 <p>Okay, so why haven&rsquo;t I blogged about this before? Truth be told, I thought it was &ldquo;obvious&rdquo; how to find specific legacy releases on any Github project. Apparently, it is not obvious for everyone so it is worth blogging about. Every properly managed project on Github tags every official release so that all past releases can be found on the &lsquo;tags&rsquo; page. You can see <a href="https://github.com/framework-one/fw1/tags">FW/1&rsquo;s &lsquo;tags&rsquo; page</a> where you can find every release since 1.0. Unfortunately, my choice of naming for tags has not always been consistent and I forgot the &lsquo;v&rsquo; prefix for a while around the release of 2.0. Oops. Unfortunately the typical naming convention for prereleases tends to sort them above their gold release versions &ndash; see <a href="https://github.com/clojure/core.logic/tags">Clojure&rsquo;s core.logic library&rsquo;s tags</a> for a more striking example. At least Github provides an easy mechanism for provided tagged archive releases.</p>

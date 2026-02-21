@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Clojure | FW/1 - The Invisible Framework]]></title>
-  <link href="http://framework-one.github.io/blog/categories/clojure/atom.xml" rel="self"/>
-  <link href="http://framework-one.github.io/"/>
+  <link href="http://charlesr1971.github.io/fw1/blog/categories/clojure/atom.xml" rel="self"/>
+  <link href="http://charlesr1971.github.io/fw1/"/>
   <updated>2015-07-07T16:43:21-07:00</updated>
-  <id>http://framework-one.github.io/</id>
+  <id>http://charlesr1971.github.io/fw1/</id>
   <author>
     <name><![CDATA[Sean Corfield]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Lucee and FW/1]]></title>
-    <link href="http://framework-one.github.io/blog/2015/01/29/lucee-fw1/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/01/29/lucee-fw1/"/>
     <updated>2015-01-29T13:30:49-08:00</updated>
-    <id>http://framework-one.github.io/blog/2015/01/29/lucee-fw1</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/01/29/lucee-fw1</id>
     <content type="html"><![CDATA[<p>Today saw the announcement of the <a href="http://lucee.org">Lucee Association Switzerland</a> and the release of a new open source CFML engine: <a href="http://lucee.org/downloads.html">Lucee 4.5.0</a>.</p>
 
 <p>For background on the new engine and the association behind it, read <a href="http://blog.adamcameron.me/2015/01/lucee.html">Adam Cameron&rsquo;s blog post with Q&amp;A</a> about the launch.</p>
@@ -34,9 +34,9 @@
   
   <entry>
     <title type="html"><![CDATA[FW/1 & Clojure Sitting in Tree]]></title>
-    <link href="http://framework-one.github.io/blog/2015/01/25/fw1-clojure-sitting-in-a-tree/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/01/25/fw1-clojure-sitting-in-a-tree/"/>
     <updated>2015-01-25T13:30:49-08:00</updated>
-    <id>http://framework-one.github.io/blog/2015/01/25/fw1-clojure-sitting-in-a-tree</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/01/25/fw1-clojure-sitting-in-a-tree</id>
     <content type="html"><![CDATA[<p>Anyone following my tech trajectory will know that, after starting to learn Clojure in 2010, I&rsquo;ve moved increasingly away from CFML and toward Clojure. In 2014, my team decided that Clojure would be our official primary language and all new development would happen there instead of in CFML. We still have a lot of CFML code in production &ndash; about 90kloc &ndash; but we consider it &ldquo;legacy code&rdquo; at this point. Most of that CFML code is a large ColdBox app that we built about five years ago (technically it&rsquo;s three ColdBox apps but they share a lot of code). Our application Model has been slowly moving to Clojure so that we can reuse that code in new applications we&rsquo;re building in Clojure. We&rsquo;ve also been building new apps with FW/1 (and reusing both our CFML code and our Clojure code). We still like CFML as a templating language for views and our controllers &ndash; in our FW/1 apps at least &ndash; are often mostly just &ldquo;glue&rdquo; code that lets us call into our Clojure model code.<!-- more --></p>
 
 <p>I&rsquo;ve talked in passing on the FW/1 mailing list about the possibility of deeper integration with Clojure and I recently published <a href="https://github.com/framework-one/cfmljure/releases/tag/v0.1.0">cfmljure 0.1.0</a> &ndash; which I&rsquo;ll be blogging about shortly &ndash; and so the topic came up again on the mailing list about this integration. I&rsquo;d been thinking about how to write controllers in Clojure so that you could have a FW/1 app that used CFML for the views &ndash; where it excels as a templating language &ndash; and Clojure for the controllers and the model, leveraging the expressive power and immutable safety for all your business logic.</p>
@@ -55,9 +55,9 @@
   
   <entry>
     <title type="html"><![CDATA[Cfmljure Release 0.1.0]]></title>
-    <link href="http://framework-one.github.io/blog/2015/01/23/cfmljure-0-1-0/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2015/01/23/cfmljure-0-1-0/"/>
     <updated>2015-01-23T13:30:49-08:00</updated>
-    <id>http://framework-one.github.io/blog/2015/01/23/cfmljure-0-1-0</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2015/01/23/cfmljure-0-1-0</id>
     <content type="html"><![CDATA[<p>I started cfmljure back in 2010, a few months after I started to learn Clojure, as a way to run Clojure code inside a CFML application. That early version worked &ndash; we&rsquo;ve been using it in at World Singles since mid-2011 to integrate Clojure into our large ColdBox application, and updated versions of cfmljure have been in very heavy production usage since May 2012.<!-- more --> Those early versions were pretty clunky to setup though, since you needed to mess with the classpath of your CFML engine (or at least the container on which you ran it &ndash; Tomcat, in our case) and you needed to copy all your third-party library dependencies into the <code>WEB-INF/lib</code> folder (and restart your container if you changed your dependencies).</p>
 
 <p>When Clojure 1.6 came out (March 2014), it introduced a new API for embedding Clojure inside other JVM applications. I&rsquo;d been relying on an unsupported API so I wanted to move to the new API as soon as possible. I ran into problems with classpath handling so I put it on the back burner for a while. One of the things that bothered me about the earlier cfmljure was that you had to do so much configuration and manual copying of libraries. Leiningen handles all this for you in Clojure and I wanted things to be that slick for cfmljure. I experimented with some CFML code that executed Leiningen to retrieve the classpath and I had some success, but not enough to create a reliable version that could be used in our app at work.</p>
@@ -95,9 +95,9 @@ for ( var newURL in urls.toArray() ) {
   
   <entry>
     <title type="html"><![CDATA[New FW/1 - Framework One - Organization on Github]]></title>
-    <link href="http://framework-one.github.io/blog/2013/04/06/new-fw1-organization-on-github/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2013/04/06/new-fw1-organization-on-github/"/>
     <updated>2013-04-06T13:21:49-07:00</updated>
-    <id>http://framework-one.github.io/blog/2013/04/06/new-fw1-organization-on-github</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2013/04/06/new-fw1-organization-on-github</id>
     <content type="html"><![CDATA[<p>To make it easier to manage collaboration on FW/1-related projects in future, several projects have now moved under a new <a href="https://github.com/framework-one">FW/1 &ndash; Framework One</a> &ndash; organization on Github. Your forks and watches should have been updated but if you have local clones of the old repos under my personal Github account, you&rsquo;ll want to update those. Here&rsquo;s the full list of Framework One projects:<!-- more --></p>
 
 <ul>
@@ -117,9 +117,9 @@ for ( var newURL in urls.toArray() ) {
   
   <entry>
     <title type="html"><![CDATA[FW/1 Comes to Clojure]]></title>
-    <link href="http://framework-one.github.io/blog/2011/11/07/fw1-comes-to-clojure/"/>
+    <link href="http://charlesr1971.github.io/fw1/blog/2011/11/07/fw1-comes-to-clojure/"/>
     <updated>2011-11-07T17:53:44-08:00</updated>
-    <id>http://framework-one.github.io/blog/2011/11/07/fw1-comes-to-clojure</id>
+    <id>http://charlesr1971.github.io/fw1/blog/2011/11/07/fw1-comes-to-clojure</id>
     <content type="html"><![CDATA[<p>After two years in the CFML world, FW/1 (Framework One) comes to Clojure!<!-- more --></p>
 
 <p>Intended to bring the same simple, lightweight, convention-based MVC web application development that has proved so popular in the CFML world to the world of Clojure, <a href="https://github.com/framework-one/fw1-clj">FW/1 for Clojure</a> is available on Clojars (0.1.0, as of April 2012). If you clone the github repo, you&rsquo;ll see a &ldquo;user manager&rdquo; example application which is a port of the same app from the CFML version of the framework. The documentation is, as always, a work in progress but covers the basic API and how to create a driver program for the framework in Clojure. More information on the rationale, approach and API of FW/1 can be found on the <a href="https://github.com/framework-one/fw1/wiki">FW/1 (for CFML) wiki</a>. I plan to adapt this for the Clojure version shortly&hellip;</p>
