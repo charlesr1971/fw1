@@ -18,6 +18,43 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- 1. Fixes CSS/Images (Relative paths only) -->
+  <base href="/fw1/">
+
+  <!-- 2. Fixes Clicks (The "CF Interceptor" style) -->
+  <script>
+    document.addEventListener('click', function(e) {
+      const link = e.target.closest('a');
+      if (link) {
+        const href = link.getAttribute('href');
+        // If it starts with / and isn't already patched
+        if (href && href.startsWith('/') && !href.startsWith('/fw1/')) {
+          link.href = '/fw1' + href;
+        }
+      }
+    }, true); // 'true' uses capturing to catch the click early
+
+    (function() {
+    // 1. Fix images and scripts that already exist in the HTML
+    function fixAssets() {
+      const assets = document.querySelectorAll('img[src^="/"], script[src^="/"], link[href^="/"]');
+      assets.forEach(el => {
+        const attr = el.tagName === 'LINK' ? 'href' : 'src';
+        const val = el.getAttribute(attr);
+        // Only prefix if it hasn't been fixed yet and isn't a double-slash (external)
+        if (val.startsWith('/') && !val.startsWith('/fw1/') && !val.startsWith('//')) {
+          el[attr] = '/fw1' + val;
+        }
+      });
+    }
+
+    // Run it as soon as the DOM starts loading
+    document.addEventListener('DOMContentLoaded', fixAssets);
+    
+    // Also run it immediately for the <head> elements (CSS/Modernizr)
+    fixAssets();
+  })();
+  </script>
 
   <link rel="canonical" href="http://framework-one.github.io">
   <link href="/favicon.png" rel="icon">
