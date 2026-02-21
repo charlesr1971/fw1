@@ -21,13 +21,13 @@ stable release, read the
 
   
   <link rel="canonical" href="http://framework-one.github.io/documentation/using-aop-one.html">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="FW/1 - The Invisible Framework" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
+  <link href="/fw1/favicon.png" rel="icon">
+  <link href="/fw1/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/fw1/atom.xml" rel="alternate" title="FW/1 - The Invisible Framework" type="application/atom+xml">
+  <script src="/fw1/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <script src="/fw1/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -38,7 +38,7 @@ stable release, read the
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">FW/1 - The Invisible Framework</a></h1>
+  <h1><a href="/fw1/">FW/1 - The Invisible Framework</a></h1>
   
     <h2>Framework One and friends...</h2>
   
@@ -46,7 +46,7 @@ stable release, read the
 
 </header>
   <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  <li><a href="/fw1/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
   
 </ul>
   
@@ -58,9 +58,9 @@ stable release, read the
 </form>
   
 <ul class="main-navigation">
-    <li><a href="/">Blog</a></li>
-    <li><a href="/blog/archives">Archives</a></li>
-    <li><a href="/documentation">Documentation</a></li>
+    <li><a href="/fw1/">Blog</a></li>
+    <li><a href="/fw1/blog/archives">Archives</a></li>
+    <li><a href="/fw1/documentation">Documentation</a></li>
 </ul>
 
 </nav>
@@ -88,9 +88,9 @@ stable release, read the
   
   <p><em>This is the latest (3.1 &ndash; develop) documentation &ndash; for the current
 stable release, read the
-<a href="/documentation/3.0/">3.0 master documentation</a>. AOP/1 is new in 3.1.</em></p>
+<a href="/fw1/documentation/3.0/">3.0 master documentation</a>. AOP/1 is new in 3.1.</em></p>
 
-<p>AOP/1 is a simple Aspect Oriented Programming extension for <a href="/documentation/using-di-one.html">DI/1 (a.k.a Inject One)</a> which allows you to define interceptors for your beans.</p>
+<p>AOP/1 is a simple Aspect Oriented Programming extension for <a href="/fw1/documentation/using-di-one.html">DI/1 (a.k.a Inject One)</a> which allows you to define interceptors for your beans.</p>
 
 <p>These interceptors can run code before or after a method is called on a bean without the need for you to alter the code in your bean.  This allows you to create generic services (such as a logger service) that is coded and configured to operate completely separate from your other services and beans.  What this means is you no longer need to mix unrelated service code together by using dedicated interceptors.</p>
 
@@ -104,7 +104,7 @@ stable release, read the
 </pre></td><td class='code'><pre><code class=''><span class='line'>var beanFactory = new framework.aop("/model");</span></code></pre></td></tr></table></div></figure>
 
 
-<p>So far nothing difficult since this is what we would typically see from <a href="/documentation/using-di-one.html">DI/1</a>.  Now, if we want to intercept method calls to an object, we need to declare the interceptors and the objects that should be intercepted.</p>
+<p>So far nothing difficult since this is what we would typically see from <a href="/fw1/documentation/using-di-one.html">DI/1</a>.  Now, if we want to intercept method calls to an object, we need to declare the interceptors and the objects that should be intercepted.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -394,75 +394,75 @@ This method is automatically added to any interceptor and will attempt translate
 </section>
 <section>
     <h1>3.1 Documentation (develop)</h1>
-    <a href="/documentation">Getting Started Guide</a><br />
-    <a href="/documentation/developing-applications.html">Developing Applications Guide</a><br />
-    <a href="/documentation/using-aop-one.html">Using AOP/1</a><br />
-    <a href="/documentation/using-di-one.html">Using DI/1</a><br />
-    <a href="/documentation/using-subsystems.html">Using Subsystems</a><br />
-    <a href="/documentation/reference-manual.html">Reference Manual</a><br />
-    <a href="/documentation/roadmap.html">Roadmap</a><br />
+    <a href="/fw1/documentation">Getting Started Guide</a><br />
+    <a href="/fw1/documentation/developing-applications.html">Developing Applications Guide</a><br />
+    <a href="/fw1/documentation/using-aop-one.html">Using AOP/1</a><br />
+    <a href="/fw1/documentation/using-di-one.html">Using DI/1</a><br />
+    <a href="/fw1/documentation/using-subsystems.html">Using Subsystems</a><br />
+    <a href="/fw1/documentation/reference-manual.html">Reference Manual</a><br />
+    <a href="/fw1/documentation/roadmap.html">Roadmap</a><br />
 </section>
 <section>
     <h1>3.0 Documentation (stable - master)</h1>
-    <a href="/documentation/3.0">Getting Started Guide</a><br />
-    <a href="/documentation/3.0/developing-applications.html">Developing Applications Guide</a><br />
-    <a href="/documentation/3.0/using-di-one.html">Using DI/1</a><br />
-    <a href="/documentation/3.0/using-subsystems.html">Using Subsystems</a><br />
-    <a href="/documentation/3.0/reference-manual.html">Reference Manual</a><br />
-    <a href="/documentation/3.0/roadmap.html">Roadmap</a><br />
+    <a href="/fw1/documentation/3.0">Getting Started Guide</a><br />
+    <a href="/fw1/documentation/3.0/developing-applications.html">Developing Applications Guide</a><br />
+    <a href="/fw1/documentation/3.0/using-di-one.html">Using DI/1</a><br />
+    <a href="/fw1/documentation/3.0/using-subsystems.html">Using Subsystems</a><br />
+    <a href="/fw1/documentation/3.0/reference-manual.html">Reference Manual</a><br />
+    <a href="/fw1/documentation/3.0/roadmap.html">Roadmap</a><br />
 </section>
 <section>
     <h1>3.5 Documentation (upcoming - clojure)</h1>
-    <a href="/documentation/3.5">Getting Started Guide</a><br />
-    <a href="/documentation/3.5/developing-applications.html">Developing Applications Guide</a><br />
-    <a href="/documentation/3.5/using-aop-one.html">Using AOP/1</a><br />
-    <a href="/documentation/3.5/using-di-one.html">Using DI/1</a><br />
-    <a href="/documentation/3.5/using-subsystems.html">Using Subsystems</a><br />
-    <a href="/documentation/3.5/reference-manual.html">Reference Manual</a><br />
-    <a href="/documentation/3.5/roadmap.html">Roadmap</a><br />
+    <a href="/fw1/documentation/3.5">Getting Started Guide</a><br />
+    <a href="/fw1/documentation/3.5/developing-applications.html">Developing Applications Guide</a><br />
+    <a href="/fw1/documentation/3.5/using-aop-one.html">Using AOP/1</a><br />
+    <a href="/fw1/documentation/3.5/using-di-one.html">Using DI/1</a><br />
+    <a href="/fw1/documentation/3.5/using-subsystems.html">Using Subsystems</a><br />
+    <a href="/fw1/documentation/3.5/reference-manual.html">Reference Manual</a><br />
+    <a href="/fw1/documentation/3.5/roadmap.html">Roadmap</a><br />
 </section>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2015/07/07/fw1-3-1-rc-2/">FW/1 3.1 Release Candidate 2 Available!</a>
+        <a href="/fw1/blog/2015/07/07/fw1-3-1-rc-2/">FW/1 3.1 Release Candidate 2 Available!</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2015/06/28/fw1-3-1-rc-1/">FW/1 3.1 Release Candidate 1 Available!</a>
+        <a href="/fw1/blog/2015/06/28/fw1-3-1-rc-1/">FW/1 3.1 Release Candidate 1 Available!</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2015/06/20/fw1-3-1-beta-2/">FW/1 3.1 Beta 2 Available!</a>
+        <a href="/fw1/blog/2015/06/20/fw1-3-1-beta-2/">FW/1 3.1 Beta 2 Available!</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2015/05/14/fw1-3-1-beta-1/">FW/1 3.1 Beta 1 Available!</a>
+        <a href="/fw1/blog/2015/05/14/fw1-3-1-beta-1/">FW/1 3.1 Beta 1 Available!</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2015/05/09/fw1-2-5-1-2-2-2-important/">FW/1 2.5.2 & 2.2.3 - Important Updates!</a>
+        <a href="/fw1/blog/2015/05/09/fw1-2-5-1-2-2-2-important/">FW/1 2.5.2 & 2.2.3 - Important Updates!</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2015/05/09/fw1-3-0-1-important/">FW/1 3.0.2 - Important Update!</a>
+        <a href="/fw1/blog/2015/05/09/fw1-3-0-1-important/">FW/1 3.0.2 - Important Update!</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2015/03/21/fw1-3-1-begins/">FW/1 3.1 Begins...</a>
+        <a href="/fw1/blog/2015/03/21/fw1-3-1-begins/">FW/1 3.1 Begins...</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2015/02/24/fw1-3-0-released/">FW/1 3.0 Released!</a>
+        <a href="/fw1/blog/2015/02/24/fw1-3-0-released/">FW/1 3.0 Released!</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2015/02/06/fw1-3-0-rc-2-available/">FW/1 3.0 RC 2 Available</a>
+        <a href="/fw1/blog/2015/02/06/fw1-3-0-rc-2-available/">FW/1 3.0 RC 2 Available</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2015/01/29/lucee-fw1/">Lucee and FW/1</a>
+        <a href="/fw1/blog/2015/01/29/lucee-fw1/">Lucee and FW/1</a>
       </li>
     
   </ul>
@@ -494,7 +494,7 @@ This method is automatically added to any interceptor and will attempt translate
         });
     });
   </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
+  <script src="/fw1/javascripts/github.js" type="text/javascript"> </script>
 </section>
 <section>
   <a href="https://github.com/seancorfield">@seancorfield</a> on GitHub
