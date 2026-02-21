@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://framework-one.github.io
+url: https://charlesr1971.github.io
 title: FW/1 - The Invisible Framework
 subtitle: Framework One and friends...
 author: Sean Corfield
@@ -26,7 +26,7 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /framework-one.github.io/
 permalink: /blog/:year/:month/:day/:title/
 source: source
 destination: public
@@ -69,7 +69,7 @@ default_asides: [custom/asides/about.html, asides/recent_posts.html, asides/gith
 # ----------------------- #
 
 # Github repositories
-github_user: framework-one
+github_user: charlesr1971
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
