@@ -3,13 +3,13 @@
 <span class="categories">
 	{% if post %}
 		{% for category in post.categories %}
-			<a href="{{ root_url }}/blog/category/{{ category }}">{{ category }}</a>
+			<a href="{{ site.root_url }}/blog/category/{{ category }}">{{ category }}</a>
 			{% if forloop.last %}{% else %},{% endif %}
 		{% endfor %}
 
 	{% else %}
 		{% for category in page.categories %}
-			<a href="{{ root_url }}/blog/category/{{ category }}">{{ category }}</a>
+			<a href="{{ site.root_url }}/blog/category/{{ category }}">{{ category }}</a>
 			{% if forloop.last %}{% else %},{% endif %}
 		{% endfor %}
   {% endif %}
