@@ -15,6 +15,6 @@ The main focus of RC 1 has been bug fixes. Only a small number of functional enh
 
 In addition, AOP/1 is no longer bundled with FW/1. It's not ready for primetime yet so I didn't want to include it in the 3.0 release. It got a lot of work between Alpha 1 and Beta 1 but additional bugs and some hard problems came up in testing. It's still available on the `aop1` branch if you want to experiment with it (and help find and fix more bugs in it!).
 
-As part of the preparation for RC 1, all of the documentation has been reviewed and updated and DI/1's documentation is now [part of the main documentation site](https://charlesr1971.github.io/fw1/documentation/using-di-one.html). Big thanks go to Nando Breiter for bringing that across from the old wiki in the standalone DI/1 repo. Code contributors to RC 1 include: John Berquist, Ryan Guill, Cameron Childress. Thank you!
+As part of the preparation for RC 1, all of the documentation has been reviewed and updated and DI/1's documentation is now [part of the main documentation site](https://establishmindfulness.dev/fw1/documentation/using-di-one.html). Big thanks go to Nando Breiter for bringing that across from the old wiki in the standalone DI/1 repo. Code contributors to RC 1 include: John Berquist, Ryan Guill, Cameron Childress. Thank you!
 
 At this point, only bug fixes will be considered before FW/1 3.0 goes "gold" and given the long period of testing so far on Beta 1, that final release shouldn't be too far away.

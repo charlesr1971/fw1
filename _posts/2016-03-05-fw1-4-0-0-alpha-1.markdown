@@ -21,4 +21,4 @@ The focus of the 4.0 release is on improving REST support. Improvements include:
 
 In addition, DI/1 has had a number of enhancements, including the addition of a builder syntax for programmatically declaring beans.
 
-For more detail, read the [Change Log for FW/1 4.0](https://charlesr1971.github.io/fw1/documentation/4.0/changes.html).
+For more detail, read the [Change Log for FW/1 4.0](https://establishmindfulness.dev/fw1/documentation/4.0/changes.html).
