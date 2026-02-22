@@ -19,6 +19,6 @@ The [Gold Release of FW/1 4.0.0](https://github.com/framework-one/fw1/releases/t
 
 Dependency Injection (DI/1) has also received a lot of attention in this release, including the addition of a flexible and powerful builder syntax for declaring beans.
 
-See the [FW/1 4.0.0 Change Log](http://framework-one.github.io/documentation/4.0/changes.html) for full details of all the enhancements and bug fixes. Please note that there are a few breaking (or potentially breaking) changes since 3.5.1, with the most notable one being that Adobe ColdFusion 10 is now the minimum supported version. Support for Railo and Lucee has not changed.
+See the [FW/1 4.0.0 Change Log](https://charlesr1971.github.io/fw1/documentation/4.0/changes.html) for full details of all the enhancements and bug fixes. Please note that there are a few breaking (or potentially breaking) changes since 3.5.1, with the most notable one being that Adobe ColdFusion 10 is now the minimum supported version. Support for Railo and Lucee has not changed.
 
-This will be followed by a 4.1 maintenance release and a 4.5 migration release, which will pave the way for some breaking changes planned for the 5.0 release. For more details of future plans, consult the [FW/1 Roadmap](http://framework-one.github.io/documentation/roadmap.html).
+This will be followed by a 4.1 maintenance release and a 4.5 migration release, which will pave the way for some breaking changes planned for the 5.0 release. For more details of future plans, consult the [FW/1 Roadmap](https://charlesr1971.github.io/fw1/documentation/roadmap.html).
